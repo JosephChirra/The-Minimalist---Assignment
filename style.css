@@ -368,22 +368,10 @@ hr{
     font-size: small;
 }
 
-/* .product-description-2 {
-    list-style: none; 
-}
-.product-description-2 li {
-    content: url("images/star.png"); 
-    margin: 5px;
-    height: 15px;
-    width: 100%;
-    
-
-} */
-
 
 /* Home Responsive */
 
-@media (min-width:460px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 786px) {
 .bg-image{
     background-image: url(./images/Beej-Patakha.jpg);
     height: 70vh;
@@ -407,7 +395,7 @@ hr{
 .text-conainer{
     width: 70vw;
     color: white;
-    margin: 10vh;
+    margin-top: 30vh;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -428,7 +416,7 @@ hr{
 }
 
 /* About Responsiveness */
-@media (min-width:460px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 786px) {
 
     .context-containeer{
         width: 100%;
@@ -504,7 +492,7 @@ hr{
 /*Product Responsiveness */
 
 
-@media (min-width:460px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 786px) {
     .our-products{
         width: 100%;
         display: flex;
@@ -584,7 +572,7 @@ hr{
 }
 
 /* Popup Responsive */
-@media (min-width:460px) and (max-width: 768px){
+@media (min-width:320px) and (max-width: 786px){
     .bg-modal{
         width: 100vw;
         height: 100vh;
