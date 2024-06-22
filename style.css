@@ -1,0 +1,715 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-image{
+    background-image: url(./images/Beej-Patakha.jpg);
+    height: 70vh;
+    width: 100vw;
+}
+.upper-part{
+    width: 100%;
+    color: white;
+    background-color: rgba(236, 110, 64,0.3);
+    height: 14vh;
+    box-shadow: rgba(0, 0, 0, 0.9);
+}
+.logo{
+    height: 10vh;
+    width: 15%;
+    margin: 5px;
+    margin-left: 20px;
+    padding: 20px,30px;
+    opacity: 1;
+}
+.text-conainer{
+    color: white;
+    margin-top: 10vh;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-conainer h1{
+    font-size: 1200;
+}
+
+.button-1{
+    margin-top: 4vh;
+    height: 7vh;
+    width: 15vw;
+    color: white;
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+}
+
+/* about*/
+
+.context-containeer{
+    width: 100%;
+    height: 100vh;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    
+    
+}
+.about h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    font-weight: 900;
+}
+
+
+.straight-line{
+    width: 48vw;
+    margin: 0;
+    height: 35px;
+}
+
+.about-card{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0px;
+    padding: auto;
+}
+.about-text h2{
+    font-weight: 200;
+    font-size: larger;
+}
+
+.about-text h1{
+    font-weight: 600;
+    font-size: large;
+}
+
+.sparlce{
+    height: 150px;
+    width: 200px;
+}
+.sparcle-cart{
+    height: 200px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px 0px;
+    
+}
+
+/*Products*/
+
+.our-products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+    margin: 30px;
+}
+
+.our-products h2{
+    color: orangered;
+    font-weight: 900;
+    width: 30vw;
+    margin: 0 10px;
+    
+    
+}
+
+.our-products img{
+    width: 30vw;
+    margin: 0 0px;
+    
+}
+
+.products-banner{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px; 
+    margin: 20px;
+} 
+.product-details{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+} 
+
+.product{
+    height: 75vh;
+    width: 45vw;
+    border: 3px solid;
+    border-color: rgb(210, 207, 207);
+    margin-bottom: 10px;
+    padding: 10px;
+    align-items: center; 
+    margin: 10px;
+    
+}
+
+.product-image{
+    height: 50vh;
+    width: 40vw;
+    margin: 15px;
+} 
+
+.product h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #ed0a0a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.straight-line-end{
+    width: 100%;
+    height: 5vh;
+    margin: 10px;
+}
+
+
+
+
+/* footer */
+
+.footer-cart{
+    height: 30vh;
+    width: 100%;
+    margin: 20px;
+    padding: 0px;
+}
+
+
+.footer-line{
+    height: 7px;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 3px;
+    
+    margin: 0px;
+    margin-bottom: 0;
+}
+
+.footer-container{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(37,167,105,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 0px;
+}
+.footers h3{
+    color: rgb(237, 250, 58);
+    text-shadow: black 2px 2px 5px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-decorator{
+    height: 17vh;
+    width: 10%;
+}
+
+.app-logo{
+    height: vh;
+    width: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Popup Message */
+
+.bg-modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    display: none;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
+.popup-content{
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+.main-image img{
+    height: 50vh;
+    width: 40vw;
+    margin: 15px 10px;
+}
+.extra-images{
+    height: 15vh;
+    width: 40vw;
+    margin: 15px ;
+    
+}
+.extra-images img{
+    height: 10vh;
+    width: 9vw;
+    padding: 5px;
+    border: #f89478 0.1px solid;
+    
+}
+
+.large-image{
+    border: #0f26f3 0.1px dotted !important;
+}
+
+/* Pataka details */
+
+.close-1{
+    display: none;
+}
+.name-close{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+hr{
+    border-top: 10px dashed rgb(255, 0, 0);
+}
+.redline{
+    border-top: 3px dashed rgb(255, 0, 0);
+}
+
+.close{
+    cursor: pointer;
+    margin: 2vh 10vh;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.button-3{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 7vh;
+    width: 80%;
+    margin: 1vh;
+}
+
+.name-name{
+    font-size: large;
+    font-weight: 600;
+}
+.mrp{
+    font-size: large;
+    font-weight: 400;
+}
+.name-dream{
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.product-description-1{
+    font-size: small;
+    font-weight: 600;
+}
+
+.product-description-2{
+    font-size: small;
+}
+
+/* .product-description-2 {
+    list-style: none; 
+}
+.product-description-2 li {
+    content: url("images/star.png"); 
+    margin: 5px;
+    height: 15px;
+    width: 100%;
+    
+
+} */
+
+
+/* Home Responsive */
+
+@media (min-width:460px) and (max-width: 768px) {
+.bg-image{
+    background-image: url(./images/Beej-Patakha.jpg);
+    height: 70vh;
+    width: 100%;
+}
+.upper-part{
+    color: white;
+    background-color: rgba(236, 110, 64,0.3);
+    height: 5vh;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.9);
+}
+.logo{
+    height: 5vh;
+    width: 15%;
+    margin: 5px;
+    margin-left: 40px;
+    padding: 20px,30px;
+    opacity: 1;
+}
+.text-conainer{
+    width: 70vw;
+    color: white;
+    margin: 10vh;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-conainer h1{
+    font-size: 1200;
+}
+
+.button-1{
+    margin-top: 4vh;
+    height: 7vh;
+    width: 25vw;
+    color: white;
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+}
+}
+
+/* About Responsiveness */
+@media (min-width:460px) and (max-width: 768px) {
+
+    .context-containeer{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .about{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: orangered;
+        
+        
+    }
+    .about h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: orangered;
+        font-weight: 900;
+    }
+    
+    
+    .straight-line{
+        width: 48vw;
+        margin: 0;
+        height: 35px;
+    }
+    
+    .about-card{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+    }
+    
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0px;
+        padding: auto;
+        
+    }
+    .about-text h2{
+        font-weight: 200;
+        font-size: larger;
+    }
+    
+    .about-text h1{
+        font-weight: 600;
+        font-size: large;
+    }
+    
+    .sparlce{
+        height: 150px;
+        width: 200px;
+    }
+    .sparcle-cart{
+        height: 200px;
+        width: 200px;
+        padding: 0px;
+        margin: 0px 0px;
+        
+    }
+}
+
+/*Product Responsiveness */
+
+
+@media (min-width:460px) and (max-width: 768px) {
+    .our-products{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: orangered;
+        margin: 30px;
+    }
+    
+    .our-products h2{
+        color: orangered;
+        font-weight: 900;
+        width: 30vw;
+        padding: 0px;
+        
+    }
+    .our-products img{
+        width: 30vw;
+        margin: 0 0px;
+        
+    }
+
+    .products-banner{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px; 
+        margin: 20px;
+    } 
+    .product{
+        height: 50vh;
+        width: 95vw;
+        border: 3px solid;
+        border-color: rgb(210, 207, 207);
+        margin-bottom: 10px;
+        padding: 10px;
+        align-items: center; 
+        margin: 10px;
+        
+    }
+    .product-details{
+        height: 5vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;
+    } 
+    
+    
+    .product-image{
+        height: 40vh;
+        width: 95vw;
+        margin: 5px;
+    } 
+    
+    .product h3 {
+        font-size: 25px;
+        margin: 10px 0;
+        
+    }
+    
+    .product button {
+        width: 40vw;
+        height: 5vh;
+        background-color: #ed0a0a;
+        color: #fff;
+        border: none;
+        padding: 5px 0px;
+        cursor: pointer;
+        margin-bottom: 75px;
+    }
+}
+
+/* Popup Responsive */
+@media (min-width:460px) and (max-width: 768px){
+    .bg-modal{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.7);
+        position: fixed;
+        display: none;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .popup-content{
+        width: 70vw;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+    }
+    
+    .popup-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        
+    }
+    .main-image{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .close{
+        display: none;
+        cursor: pointer;
+        margin: 2vh 10vh;
+        font-weight: 500;
+        font-size: x-large;
+    }
+
+    .main-image img{
+        margin-top: 10vh;
+        height: 20vh;
+        width: 60vw;
+        /* margin: 15px 10px; */
+    }
+    .close-1{
+        margin-top: 5vh;
+        display: flex;
+    }
+    .extra-images{
+        height: 10vh;
+        width: 60vw;
+        margin: 15px ;
+        
+        align-items: center; 
+    }
+    .extra-images img{
+        height: 10vh;
+        width: 11vw;
+        padding: 5px;
+        border: #f89478 0.1px solid;
+        
+    }
+    
+    .large-image{
+        border: #0f26f3 0.1px dotted !important;
+    }
+
+    
+    /* Responsive Product details */
+
+    .popup-text{
+        padding: 20px;
+    }
+    .name-close{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    hr{
+        border-top: #ed0a0a 1px dotted;
+    }
+    
+
+    .close{
+        display: none;
+        cursor: pointer;
+        margin: 2vh 10vh;
+        font-weight: 500;
+        font-size: x-large;
+    }
+    
+    .button-3{
+        background-color: red;
+        color: white;
+        border: none;
+        height: 7vh;
+        width: 80%;
+        margin: 1vh;
+    }
+    
+    .name-name{
+        font-size: large;
+        font-weight: 600;
+    }
+    .mrp{
+        font-size: large;
+        font-weight: 400;
+    }
+    .name-dream{
+        font-size: larger;
+        font-weight: 1000;
+    }
+    
+    .product-description-1{
+        font-size: small;
+        font-weight: 600;
+    }
+    
+    .product-description-2{
+        font-size: small;
+    }
+}
