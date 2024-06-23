@@ -653,13 +653,13 @@ hr{
         background-color: rgba(0,0,0,0.7);
         position: fixed;
         display: none;
-        top: 0;
+        top: 10vh;
         justify-content: center;
         align-items: center;
     }
     .popup-content{
         width: 70vw;
-        height: 800vh;
+        height: 80vh;
         background-color: white;
         display: flex;
         flex-direction: column;
