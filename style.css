@@ -381,7 +381,7 @@ hr{
     color: white;
     background-color: rgba(236, 110, 64,0.3);
     height: 5vh;
-    width: 100%;
+    width: 100vw;
     box-shadow: rgba(0, 0, 0, 0.9);
 }
 .logo{
@@ -549,7 +549,7 @@ hr{
     
     .product-image{
         height: 40vh;
-        width: 95vw;
+        width: 90vw;
         margin: 5px;
     } 
     
@@ -570,6 +570,80 @@ hr{
         margin-bottom: 75px;
     }
 }
+
+/* FollowUs Responsive */
+
+@media (min-width:320px) and (max-width: 786px){
+
+    .straight-line-end{
+        width: 100vw;
+        height: 5vh;
+        margin: 10px;
+    }
+    
+    
+    
+    
+    /* footer */
+    
+    .footer-cart{
+        height: 30vh;
+        width: 100vw;
+        margin: 20px;
+        padding: 0px;
+    }
+    
+    
+    .footer-line{
+        height: 7px;
+        width: 100vw;
+        border: 2px solid red;
+        border-radius: 3px;
+        margin: 0px;
+        margin-bottom: 0;
+    }
+    
+    .footer-container{
+        height: 20vh;
+        width: 100vw;
+        background-color: rgba(37,167,105,255);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        margin: 0px;
+    }
+    .footers h3{
+        color: rgb(237, 250, 58);
+        text-shadow: black 2px 2px 5px;
+        font-size: x-large;
+        font-weight: 600;
+    }
+    
+    .footer-logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .footer-decorator{
+        height: 17vh;
+        width: 10%;
+    }
+    
+    .app-logo{
+        height: vh;
+        width: 50%;
+        color: black;
+        cursor: pointer;
+    }
+    
+
+}
+
 
 /* Popup Responsive */
 @media (min-width:320px) and (max-width: 786px){
